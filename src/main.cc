@@ -1,3 +1,5 @@
+#include <qs_config.h>
+
 #include <iostream>
 #include "utils.hh"
 #include "Parameters.hh"

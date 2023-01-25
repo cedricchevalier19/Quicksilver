@@ -1,6 +1,8 @@
 #ifndef QS_VECTOR_HH
 #define QS_VECTOR_HH
 
+#include <qs_config.h>
+
 #include "DeclareMacro.hh"
 #include "AtomicMacro.hh"
 #include "qs_assert.hh"

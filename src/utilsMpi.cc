@@ -1,3 +1,5 @@
+#include <qs_config.h>
+
 #include "utilsMpi.hh"
 #include <cstdio>
 #include <string.h>     // needed for memcpy on some compilers

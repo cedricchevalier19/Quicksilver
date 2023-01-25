@@ -1,6 +1,8 @@
 #ifndef CORALBENCHMARK_HH
 #define CORALBENCHMARK_HH
 
+#include <qs_config.h>
+
 class MonteCarlo;
 class Parameters;
 

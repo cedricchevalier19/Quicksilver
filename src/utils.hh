@@ -1,6 +1,8 @@
 #ifndef UTILS_HH
 #define UTILS_HH
 
+#include <qs_config.h>
+
 #include <string>
 
 int mc_get_num_physical_procs(void);

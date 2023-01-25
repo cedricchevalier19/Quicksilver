@@ -1,6 +1,8 @@
 #ifndef TALLIES_HH
 #define TALLIES_HH
 
+#include <qs_config.h>
+
 #include "portability.hh"
 #include "QS_Vector.hh"
 #include <stdlib.h>

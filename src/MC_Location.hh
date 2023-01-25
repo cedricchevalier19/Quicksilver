@@ -1,6 +1,7 @@
 #ifndef MC_LOCATION_INCLUDE
 #define MC_LOCATION_INCLUDE
 
+#include <qs_config.h>
 
 // ToDo:  How much chaos would be caused by removing the default constructor?
 

@@ -7,6 +7,8 @@
 #ifndef CMDLINEPARSER_H_
 #define CMDLINEPARSER_H_
 
+#include <qs_config.h>
+
 /// Specifies a command line argument that should be accepted by the program.
 /// \param [in]  longOption  The long name of option i.e., --optionname
 /// \param [in]  shortOption The short name of option i.e., -o

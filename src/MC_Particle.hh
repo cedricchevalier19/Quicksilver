@@ -1,6 +1,8 @@
 #ifndef MC_PARTICLE_INCLUDE
 #define MC_PARTICLE_INCLUDE
 
+#include <qs_config.h>
+
 #include <cinttypes>
 
 #include "DirectionCosine.hh"

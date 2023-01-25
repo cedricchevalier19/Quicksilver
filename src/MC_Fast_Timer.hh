@@ -1,6 +1,8 @@
 #ifndef MC_FAST_TIMER_INCLUDE
 #define MC_FAST_TIMER_INCLUDE
 
+#include <qs_config.h>
+
 #include <iostream>
 #ifndef CHRONO_MISSING
 #include <chrono>

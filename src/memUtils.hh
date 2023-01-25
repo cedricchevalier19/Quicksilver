@@ -4,6 +4,8 @@
 #ifndef MEMUTILS_HH
 #define MEMUTILS_HH
 
+#include <qs_config.h>
+
 #include <cstdlib>
 
 static void* qsMalloc(size_t iSize)

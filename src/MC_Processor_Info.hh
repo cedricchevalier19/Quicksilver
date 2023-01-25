@@ -1,6 +1,8 @@
 #ifndef MC_PROCESSOR_INFO_HH
 #define MC_PROCESSOR_INFO_HH
 
+#include <qs_config.h>
+
 #include "utilsMpi.hh"
 
 class MC_Processor_Info

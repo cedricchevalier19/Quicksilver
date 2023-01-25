@@ -1,6 +1,8 @@
 #ifndef TUPLE4_TO_INDEX_HH
 #define TUPLE4_TO_INDEX_HH
 
+#include <qs_config.h>
+
 #include "Long64.hh"
 #include "Tuple4.hh"
 

@@ -1,6 +1,8 @@
 #ifndef CUDAUTILS_HH
 #define CUDAUTILS_HH
 
+#include <qs_config.h>
+
 #if defined(HAVE_CUDA) || defined(HAVE_OPENMP_TARGET) 
 #include <cuda.h>
 #include <cuda_runtime.h>

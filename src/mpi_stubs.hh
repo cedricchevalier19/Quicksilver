@@ -1,6 +1,8 @@
 #ifndef MC_STUBS_MPI_H
 #define MC_STUBS_MPI_H
 
+#include <qs_config.h>
+
 #include <stdint.h>     // for uint64_t 
 
 #define MPI_STUBS_MAX_BLOCKS (1024)

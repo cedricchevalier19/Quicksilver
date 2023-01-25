@@ -2,6 +2,8 @@
 //
 //If compiling with CUDA
 
+#include <qs_config.h>
+
 #ifdef HAVE_OPENMP
     #define USE_OPENMP_ATOMICS
 #elif HAVE_OPENMP_TARGET

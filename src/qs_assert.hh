@@ -1,4 +1,8 @@
+#pragma once
+
 #include <cstdio>
+
+#include <qs_config.h>
 
 #ifdef __CUDA_ARCH__
 #define qs_assert( cond) \

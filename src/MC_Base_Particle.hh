@@ -1,6 +1,8 @@
 #ifndef MC_BASE_PARTICLE
 #define MC_BASE_PARTICLE
 
+#include <qs_config.h>
+
 #include "portability.hh"
 
 #include "MC_Vector.hh"

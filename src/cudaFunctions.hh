@@ -1,6 +1,8 @@
 #ifndef CUDAFUNCTIONS_HH
 #define CUDAFUNCTIONS_HH
 
+#include <qs_config.h>
+
 #include "cudaUtils.hh"
 #include "DeclareMacro.hh"
 

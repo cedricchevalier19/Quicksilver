@@ -3,7 +3,6 @@ project('quicksilver', 'cpp',
   default_options : ['warning_level=3', 'cpp_std=c++17'])
 
 conf_data = configuration_data()
-conf_data.set('version', '1.0')
 
 vcs_dep=vcs_tag(command: ['git', 'log', '-1', '--format=%aI'],
                 input:'src/git_vers.hh.in', output: 'git_vers.hh',
@@ -14,8 +13,18 @@ vcs_dep=vcs_tag(command: ['git', 'log', '-1', '--format=%H'],
 
 incdirs = include_directories('src', '.')
 
-openmp = dependency('OpenMP', language: 'cpp')
-#tbb = dependency('TBB', method: 'cmake', modules: ['TBB::tbb'])
+openmp = dependency('OpenMP', language: 'cpp', required: get_option('use_openmp'))
+
+mpi = dependency('MPI', language: 'c', required: get_option('use_mpi'))
+
+conf_data.set('HAVE_OPENMP', openmp.found(), description: 'Enable OpenMP pragmas')
+conf_data.set('HAVE_OPENMP_TARGET', get_option('use_openmp_target'), description:'Use OpenMP target pragmas')
+conf_data.set('USE_OPENMP_NO_GPU', get_option('use_openmp_target_nogpu'), description: 'Use OpenMP target without GPU offloading')
+conf_data.set('HAVE_MPI', mpi.found(), description: 'Enable distributed memory parallelism')
+conf_data.set('DHAVE_ASYNC_MPI', get_option('use_async_mpi'), description: 'Use MPI_Iallreduce to check termination')
+conf_data.set('EXPONENTIAL_TALLY', get_option('exponential_tally'), description: 'Tally looks like photonic')
+
+configure_file(output: 'qs_config.h', configuration: conf_data)
 
 executable('quicksilver',
            'src/CollisionEvent.cc',

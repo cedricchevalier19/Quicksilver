@@ -1,6 +1,8 @@
 #ifndef INPUT_BLOCK_HH
 #define INPUT_BLOCK_HH
 
+#include <qs_config.h>
+
 #include <vector>
 #include <string>
 #include <map>

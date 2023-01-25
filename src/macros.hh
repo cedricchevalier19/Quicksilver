@@ -1,6 +1,8 @@
 #ifndef MACROS_HH
 #define MACROS_HH
 
+#include <qs_config.h>
+
 #include "qs_assert.hh"
 #include <algorithm>
 

@@ -1,6 +1,7 @@
 #ifndef MC_TIME_INFO_INCLUDE
 #define MC_TIME_INFO_INCLUDE
 
+#include <qs_config.h>
 
 class MC_Time_Info
 {

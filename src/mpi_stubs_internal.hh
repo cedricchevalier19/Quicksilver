@@ -9,6 +9,8 @@
 #ifndef MPI_STUBS_INTERNAL_H
 #define MPI_STUBS_INTERNAL_H
 
+#include <qs_config.h>
+
 #include "mpi_stubs.hh"
 
 //----------------------------------------------------------------------------------------------------------------------

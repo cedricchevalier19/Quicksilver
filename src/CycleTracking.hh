@@ -1,3 +1,5 @@
+#include <qs_config.h>
+
 #include "DeclareMacro.hh"
 
 // Forward Declaration

@@ -1,6 +1,8 @@
 #ifndef GRID_ASSIGNMENT_OBJECT_HH
 #define GRID_ASSIGNMENT_OBJECT_HH
 
+#include <qs_config.h>
+
 #include <vector>
 #include <queue>
 #include "MC_Vector.hh"

@@ -1,6 +1,8 @@
 #ifndef MC_CELL_STATE_INCLUDE
 #define MC_CELL_STATE_INCLUDE
 
+#include <qs_config.h>
+
 #include <cstdio>
 #include "QS_Vector.hh"
 #include "macros.hh"

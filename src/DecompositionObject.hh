@@ -1,6 +1,8 @@
 #ifndef DECOMPOSITION_OBJECT_HH
 #define DECOMPOSITION_OBJECT_HH
 
+#include <qs_config.h>
+
 #include <vector>
 
 class DecompositionObject

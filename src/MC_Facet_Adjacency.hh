@@ -1,6 +1,7 @@
 #ifndef MCT_FACET_ADJACENCY_INCLUDE
 #define MCT_FACET_ADJACENCY_INCLUDE
 
+#include <qs_config.h>
 
 #include <vector>
 #include "MC_Location.hh"

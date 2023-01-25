@@ -1,6 +1,8 @@
 #ifndef MCT_HH
 #define MCT_HH
 
+#include <qs_config.h>
+
 #include "portability.hh"
 #include "DeclareMacro.hh"
 

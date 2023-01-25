@@ -1,5 +1,8 @@
 #ifndef ENERGYSPECTRUM_HH
 #define ENERGYSPECTRUM_HH
+
+#include <qs_config.h>
+
 #include <string>
 #include <vector>
 

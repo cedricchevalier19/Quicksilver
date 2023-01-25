@@ -1,6 +1,8 @@
 #ifndef COLLISION_EVENT_HH
 #define COLLISION_EVENT_HH
 
+#include <qs_config.h>
+
 class MonteCarlo;
 class MC_Particle;
 

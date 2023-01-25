@@ -1,0 +1,6 @@
+option('use_openmp', type: 'feature', value: 'disabled', description: 'enable OpenMP')
+option('use_openmp_target', type: 'boolean', value: false, description: 'enable openmp target')
+option('use_openmp_target_nogpu', type: 'boolean', value: false, description: 'enable openmp target without gpu offloading')
+option('use_mpi', type: 'feature', value: 'disabled', description: 'enable MPI')
+option('use_async_mpi', type: 'boolean', value: false, description: 'Use MPI_Iallreduce')
+option('exponential_tally', type: 'boolean', value: false, description: 'exponential cell-based tally')

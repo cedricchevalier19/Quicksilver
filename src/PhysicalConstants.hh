@@ -1,6 +1,8 @@
 #ifndef PHYSICAL_CONSTANTS_HH
 #define PHYSICAL_CONSTANTS_HH
 
+#include <qs_config.h>
+
 #include "DeclareMacro.hh"
 HOST_DEVICE_CLASS
 namespace PhysicalConstants

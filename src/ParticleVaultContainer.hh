@@ -1,6 +1,8 @@
 #ifndef PARTICLEVAULTCONTAINER_HH
 #define PARTICLEVAULTCONTAINER_HH
 
+#include <qs_config.h>
+
 #include "DeclareMacro.hh"
 
 #include "portability.hh"

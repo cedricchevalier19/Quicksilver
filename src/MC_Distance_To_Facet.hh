@@ -1,6 +1,8 @@
 #ifndef MCT_DISTANCE_INCLUDE
 #define MCT_DISTANCE_INCLUDE
 
+#include <qs_config.h>
+
 #include "DeclareMacro.hh"
 
 HOST_DEVICE_CLASS

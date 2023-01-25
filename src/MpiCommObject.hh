@@ -1,6 +1,8 @@
 #ifndef MPI_COMM_OBJECT_HH
 #define MPI_COMM_OBJECT_HH
 
+#include <qs_config.h>
+
 #include "CommObject.hh"
 
 #include <vector>

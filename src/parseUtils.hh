@@ -1,6 +1,8 @@
 #ifndef PARSE_UTILS_HH
 #define PARSE_UTILS_HH
 
+#include <qs_config.h>
+
 #include <string>
 #include <iostream>
 

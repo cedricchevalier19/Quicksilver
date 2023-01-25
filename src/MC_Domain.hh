@@ -1,6 +1,7 @@
 #ifndef MC_DOMAIN_INCLUDE
 #define MC_DOMAIN_INCLUDE
 
+#include <qs_config.h>
 
 #include "QS_Vector.hh"
 #include "MC_Facet_Adjacency.hh"

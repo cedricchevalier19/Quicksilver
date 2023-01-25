@@ -1,6 +1,8 @@
 #ifndef MC_PARTICLE_BUFFER_INCLUDE
 #define MC_PARTICLE_BUFFER_INCLUDE
 
+#include <qs_config.h>
+
 #include "MC_Processor_Info.hh"
 #include "MC_Base_Particle.hh"
 #include "utilsMpi.hh"

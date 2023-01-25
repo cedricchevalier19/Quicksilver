@@ -1,6 +1,8 @@
 #ifndef GLOBAL_FCC_GRID_HH
 #define GLOBAL_FCC_GRID_HH
 
+#include <qs_config.h>
+
 #include <vector>
 #include "TupleToIndex.hh"
 #include "IndexToTuple.hh"

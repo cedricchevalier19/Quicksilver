@@ -1,6 +1,8 @@
 #ifndef MEMORY_CONTROL_HH
 #define MEMORY_CONTROL_HH
 
+#include <qs_config.h>
+
 #include "cudaUtils.hh"
 
 #include "qs_assert.hh"

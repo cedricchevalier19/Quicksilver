@@ -1,6 +1,8 @@
 #ifndef MCT_NEAREST_FACET_INCLUDE
 #define MCT_NEAREST_FACET_INCLUDE
 
+#include <qs_config.h>
+
 #include "DeclareMacro.hh"
 
 class MC_Nearest_Facet

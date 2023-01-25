@@ -1,6 +1,8 @@
 #ifndef MESH_PARTITION_HH
 #define MESH_PARTITION_HH
 
+#include <qs_config.h>
+
 #include <map>
 #include <vector>
 #include "Long64.hh"

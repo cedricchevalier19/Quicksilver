@@ -13,6 +13,8 @@
 #ifndef NVTX_RANGE_HH
 #define NVTX_RANGE_HH
 
+#include <qs_config.h>
+
 #include <string>
 
 #ifdef USE_NVTX

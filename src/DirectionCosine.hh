@@ -1,6 +1,8 @@
 #ifndef DIRECTION_COSINE_INCLUDE
 #define DIRECTION_COSINE_INCLUDE
 
+#include <qs_config.h>
+
 #include <cmath>
 #include "portability.hh"
 #include "DeclareMacro.hh"

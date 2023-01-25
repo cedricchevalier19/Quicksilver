@@ -1,6 +1,8 @@
 #ifndef PARTICLEVAULT_HH
 #define PARTICLEVAULT_HH
 
+#include <qs_config.h>
+
 #include "MC_Base_Particle.hh"
 #include "QS_Vector.hh"
 #include "DeclareMacro.hh"

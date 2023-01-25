@@ -1,6 +1,8 @@
 #ifndef SHARED_MEMORY_COMM_OBJECT_HH
 #define SHARED_MEMORY_COMM_OBJECT_HH
 
+#include <qs_config.h>
+
 #include "CommObject.hh"
 
 #include <set>

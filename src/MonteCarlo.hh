@@ -1,6 +1,8 @@
 #ifndef MONTECARLO_HH
 #define MONTECARLO_HH
 
+#include <qs_config.h>
+
 #include "QS_Vector.hh"
 #include "MC_Domain.hh"
 #include "Parameters.hh"

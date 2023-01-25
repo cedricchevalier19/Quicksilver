@@ -1,6 +1,8 @@
 #ifndef SENDQUEUE_HH
 #define SENDQUEUE_HH
 
+#include <qs_config.h>
+
 #include "QS_Vector.hh"
 #include "DeclareMacro.hh"
 

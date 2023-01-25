@@ -1,6 +1,8 @@
 #ifndef TUPLE_HH
 #define TUPLE_HH
 
+#include <qs_config.h>
+
 class Tuple
 {
  public:

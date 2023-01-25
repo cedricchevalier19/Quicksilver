@@ -1,6 +1,8 @@
 #ifndef MCT_FACET_GEOMETRY_3D_INCLUDE
 #define MCT_FACET_GEOMETRY_3D_INCLUDE
 
+#include <qs_config.h>
+
 #include "macros.hh"
 #include <cstddef> // NULL
 

@@ -1,6 +1,8 @@
 #ifndef UTILS_MPI_HH
 #define UTILS_MPI_HH
 
+#include <qs_config.h>
+
 #ifdef HAVE_MPI
 
 #if defined (GNU_PERMISSIVE)

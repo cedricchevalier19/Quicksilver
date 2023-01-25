@@ -4,6 +4,8 @@
 #ifndef PARAMETERS_HH
 #define PARAMETERS_HH
 
+#include <qs_config.h>
+
 #include <string>
 #include <vector>
 #include <map>

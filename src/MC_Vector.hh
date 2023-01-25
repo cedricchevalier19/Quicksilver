@@ -1,6 +1,8 @@
 #ifndef MC_VECTOR_INCLUDE
 #define MC_VECTOR_INCLUDE
 
+#include <qs_config.h>
+
 #include <cmath>
 #include "DeclareMacro.hh"
 

@@ -1,6 +1,8 @@
 #ifndef COMM_OBJECT_HH
 #define COMM_OBJECT_HH
 
+#include <qs_config.h>
+
 #include <set>
 
 #include <vector>

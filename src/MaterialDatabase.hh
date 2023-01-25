@@ -1,6 +1,8 @@
 #ifndef MATERIALDATABASE_HH
 #define MATERIALDATABASE_HH
 
+#include <qs_config.h>
+
 #include <string>
 #include <vector>
 #include <cstdlib>

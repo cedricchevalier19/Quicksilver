@@ -1,6 +1,8 @@
 #ifndef FACET_PAIR_HH
 #define FACET_PAIR_HH
 
+#include <qs_config.h>
+
 #include "MC_Location.hh"
 
 class FacetPair

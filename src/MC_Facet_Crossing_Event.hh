@@ -1,6 +1,8 @@
 #ifndef MC_FACET_CROSSING_EVENT_HH
 #define MC_FACET_CROSSING_EVENT_HH
 
+#include <qs_config.h>
+
 #include "Tallies.hh"
 #include "DeclareMacro.hh"
 

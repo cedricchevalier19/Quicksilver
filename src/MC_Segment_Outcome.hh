@@ -1,6 +1,8 @@
 #ifndef MC_SEGMENT_OUTCOME_INCLUDE
 #define MC_SEGMENT_OUTCOME_INCLUDE
 
+#include <qs_config.h>
+
 class MC_Particle;
 class MC_Vector;
 class MonteCarlo;
